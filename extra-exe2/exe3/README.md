@@ -122,6 +122,11 @@ The database contains the following tables.
 Students should create the tables and insert the following data.
 
 ```sql
+DROP TABLE IF EXISTS Students;
+DROP TABLE IF EXISTS Courses;
+DROP TABLE IF EXISTS Enrollments;
+DROP TABLE IF EXISTS LibraryLoans;
+
 CREATE TABLE Students (
 student_id INT,
 first_name TEXT,
